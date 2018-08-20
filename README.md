@@ -10,10 +10,10 @@ $ pip install seswatcher
 
 ## Usage
 
-Step 1 : Get AWS Credentials with **AmazonSESFullAccess** policy
-Step 2 : Verify sender email in AWS SES
-Step 3 : Get a blackhole email address which receives un-important emails.
-Step 4 : Create a hourly cronjob that runs **seswatcher**
+1. Step 1 : Get AWS Credentials with **AmazonSESFullAccess** policy
+2. Step 2 : Verify sender email in AWS SES
+3. Step 3 : Get a blackhole email address which receives un-important emails.
+4. Step 4 : Create a hourly cronjob that runs **seswatcher**
 
 ```bash
 $ seswatcher [OPTIONS] ACCESS_KEY SECRET_KEY FROM_EMAIL TO_EMAIL
