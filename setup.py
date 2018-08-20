@@ -7,7 +7,7 @@ install_requires = [str(ir.req) for ir in parse_requirements("requirements.txt",
 
 setup(
     name='seswatcher',
-    version='0.1',
+    version='0.2',
     author='KhanhIceTea',
     author_email="khanhicetea@gmail.com",
     url="https://github.com/khanhicetea/seswatcher",
