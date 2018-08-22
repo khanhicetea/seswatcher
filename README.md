@@ -28,7 +28,7 @@ $ seswatcher [OPTIONS] ACCESS_KEY SECRET_KEY FROM_EMAIL TO_EMAIL
 Cronjob
 
 ```
-0 * * * * seswatcher [OPTIONS] ACCESS_KEY SECRET_KEY FROM_EMAIL TO_EMAIL > /dev/null 2>&1
+0 * * * * seswatcher ACCESS_KEY SECRET_KEY FROM_EMAIL TO_EMAIL > /dev/null 2>&1
 ```
 
 ## License
