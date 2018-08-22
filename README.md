@@ -8,6 +8,12 @@ A small tool to prevent AWS SES from blocked by exceeding Bounces Rate or Compla
 $ pip install seswatcher
 ```
 
+or global system install
+
+```bash
+$ sudo pip install seswatcher
+```
+
 ## Usage
 
 1. Step 1 : Get AWS Credentials within **AmazonSESFullAccess** policy
