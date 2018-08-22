@@ -19,6 +19,12 @@ $ pip install seswatcher
 $ seswatcher [OPTIONS] ACCESS_KEY SECRET_KEY FROM_EMAIL TO_EMAIL
 ```
 
+Cronjob
+
+```
+0 * * * * seswatcher [OPTIONS] ACCESS_KEY SECRET_KEY FROM_EMAIL TO_EMAIL > /dev/null 2>&1
+```
+
 ## License
 
 MIT Copyright (c) 2018 KhanhIceTea
